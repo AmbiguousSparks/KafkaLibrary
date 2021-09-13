@@ -9,6 +9,7 @@ and then you can call the AddKafkaLibrary extension passing the assembly of the 
 ![image](https://user-images.githubusercontent.com/45923706/133132042-bdd85e12-d67e-48e9-b5d9-9c6cbd005059.png)
 
 you can call each one of the services apart
+
 ![image](https://user-images.githubusercontent.com/45923706/133132200-a4e884a2-574c-46ef-9b8a-3a48d65490ba.png)
 
 The consumer service is a default service that takes all of your consumers and consume from Kafka, when find a new message, it'll call the HandleConsumeAsync method implemented in your Consumer.
